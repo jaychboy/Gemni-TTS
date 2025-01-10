@@ -9,7 +9,7 @@ https://ai.google.dev/gemini-api/docs/get-started/python
 
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyAkX_-nPhyYp1oIbh_WBb6q0ohuA2beGEM")
+genai.configure(api_key="")
 
 # Create the model
 generation_config = {
