@@ -9,7 +9,7 @@ https://ai.google.dev/gemini-api/docs/get-started/python
 import requests
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyAkX_-nPhyYp1oIbh_WBb6q0ohuA2beGEM")
+genai.configure(api_key="")
 
 # Create the model
 generation_config = {
@@ -38,12 +38,12 @@ response = chat_session.send_message("")
 
 CHUNK_SIZE = 256
 
-url = "https://api.elevenlabs.io/v1/text-to-speech/jBpfuIE2acCO8z3wKNLl"
+url = "https://api.elevenlabs.io/v1/text-to-speech/"
 
 headers = {
   "Accept": "audio/mpeg",
   "Content-Type": "application/json",
-  "xi-api-key": "sk_383fc3056533b28196cc905b5bb11c6205d3c6faff7cc76e"
+  "xi-api-key": ""
 }
 
 data = {
